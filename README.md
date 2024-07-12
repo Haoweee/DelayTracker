@@ -93,7 +93,7 @@ Best Model: Average Probability Classifier:
 
 ## For More Information
 
-To see the full data analysis check out the [Jupyter Notebook](./E-commerce_Shipping_Notebook.ipynb) or review the [presentation](./E-commerce_Shipping_Presentation.pdf)
+To see the full data analysis check out the [Jupyter Notebook](./shipping_time_notebook.ipynb) or review the [presentation](./E-commerce_Shipping_Presentation.pdf)
 
 For any additional questions contact Dale DeFord or Brian Woo
 
