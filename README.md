@@ -1,4 +1,4 @@
-![title](./Images/title.png)
+![title](./images/title.png)
 
 # E-Commerce Shipment On-Time Delivery
 
@@ -50,18 +50,18 @@ Initial descriptive analysis revealed some problems in the raw data, such as:
 
 - 'Weight_in_gms' distribution is highly segmented with respect to 'Cost_of_the_Product'
 - Every single shipment in the weight range 2000 - 4000gm was late
-  <img src="./Images/weight_graphs.png" alt="description" width="90%" height="auto">
+  <img src="./images/weight_graphs.png" alt="description" width="90%" height="auto">
 
 - 'Discount_offered' of more than $10 may be in response to prior knowledge that a shipment is late. Thus, we are excluding 'Discount_offered' from the model to avoid potential data leakage:
-  <img src="./Images/discount_hist.png" alt="description" width="75%" height="auto">
+  <img src="./images/discount_hist.png" alt="description" width="75%" height="auto">
 
 The predictive models were evaluated with priority on Recall Score, in order to minimize false-negatives (we want to have the highest chance of detecting late shipments). Secondary metric evaluated was Accuracy.
 
 The baseline predictive model was Logistic Regression with no hyperparameter tuning, with the following results:
-<img src="./Images/baseline_results.png" alt="description" width="75%" height="auto">
+<img src="./images/baseline_results.png" alt="description" width="75%" height="auto">
 
 Here are the results of all models evaluated in thier final-tuning form:
-<img src="./Images/all_models_results.png" alt="description" width="75%" height="auto">
+<img src="./images/all_models_results.png" alt="description" width="75%" height="auto">
 
 ## Conclusions
 
@@ -72,7 +72,7 @@ Best Model: Average Probability Classifier:
 - Combines predictions from multiple models
 - Final Metrics:
 
-<img src="./Images/final_metrics.png" alt="description" width="70%" height="auto">
+<img src="./images/final_metrics.png" alt="description" width="70%" height="auto">
  
 ## Recommendations
 1. Back to square 1: Business Understanding <-> Data Understanding. Address and correct problems in the raw data.
